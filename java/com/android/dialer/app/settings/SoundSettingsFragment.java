@@ -135,7 +135,6 @@ public class SoundSettingsFragment extends PreferenceFragment
       getPreferenceScreen().removePreference(
           findPreference(context.getString(R.string.call_recording_category_key)));
     }
-    notificationManager = context.getSystemService(NotificationManager.class);
   }
 
   @Override
